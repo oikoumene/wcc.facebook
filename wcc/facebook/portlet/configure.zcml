@@ -5,5 +5,13 @@
 
     <include package="plone.app.portlets" file="permissions.zcml"/>
     <!-- -*- extra stuff goes here -*- -->
+    <plone:portlet
+        name="wcc.facebook.portlet.EcumenicalYouthFacebookPortlet"
+        interface=".ecumenicalyouthfacebookportlet.IEcumenicalYouthFacebookPortlet"
+        assignment=".ecumenicalyouthfacebookportlet.Assignment"
+        renderer=".ecumenicalyouthfacebookportlet.Renderer"
+        addview=".ecumenicalyouthfacebookportlet.AddForm"
+        editview=".ecumenicalyouthfacebookportlet.EditForm"
+        />
 
 </configure>

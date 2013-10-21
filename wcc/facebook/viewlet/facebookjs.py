@@ -8,10 +8,10 @@ from wcc.facebook.interfaces import IProductSpecific
 
 grok.templatedir('templates')
 
-class wcc.facebooksdk(grok.Viewlet):
+class FacebookJS(grok.Viewlet):
     grok.context(IContentish)
-    grok.viewletmanager(manager.IHTMLHead)
-    grok.template('wcc.facebooksdk')
+    grok.viewletmanager(manager.IHtmlHeadLinks)
+    grok.template('facebookjs')
     grok.layer(IProductSpecific)
 
     def available(self):

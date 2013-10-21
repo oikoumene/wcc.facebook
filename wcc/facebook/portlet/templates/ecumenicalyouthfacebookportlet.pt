@@ -1,0 +1,11 @@
+<div class="portlet portletEcumenicalYouthFacebookPortlet"
+    i18n:domain="wcc.facebook">
+
+    <div class="fb-like-box" data-href="https://www.facebook.com/ecumenicalyouth" 
+        tal:attributes="data-width view/data/width" data-width="600" 
+        data-show-faces="false" 
+        data-stream="true" 
+        data-show-border="false" 
+        data-header="false">
+    </div>
+</div>
