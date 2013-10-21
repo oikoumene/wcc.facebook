@@ -10,7 +10,7 @@ grok.templatedir('templates')
 
 class FacebookJS(grok.Viewlet):
     grok.context(IContentish)
-    grok.viewletmanager(manager.IHtmlHeadLinks)
+    grok.viewletmanager(manager.IAboveContent)
     grok.template('facebookjs')
     grok.layer(IProductSpecific)
 

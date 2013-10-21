@@ -3,6 +3,11 @@
 
     <!-- -*- extra stuff goes here -*- -->
  <portlet 
+   addview="wcc.facebook.portlet.FacebookLikePortlet"
+   title="Facebook Like Portlet"
+   description=""/>
+
+ <portlet 
    addview="wcc.facebook.portlet.EcumenicalYouthFacebookPortlet"
    title="Ecumenical Youth Facebook Portlet"
    description=""/>

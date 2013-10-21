@@ -1,0 +1,5 @@
+<div class="portletFacebookLikePortlet"
+    i18n:domain="wcc.facebook"
+    style="width:400px;height:20px">
+<div class="fb-like" tal:attributes="data-href request/getURL" data-width="400" data-height="20" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="true" data-send="false"></div>
+</div>

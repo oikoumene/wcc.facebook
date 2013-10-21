@@ -6,6 +6,13 @@
     <include package="plone.app.portlets" file="permissions.zcml"/>
     <!-- -*- extra stuff goes here -*- -->
     <plone:portlet
+        name="wcc.facebook.portlet.FacebookLikePortlet"
+        interface=".facebooklikeportlet.IFacebookLikePortlet"
+        assignment=".facebooklikeportlet.Assignment"
+        renderer=".facebooklikeportlet.Renderer"
+        addview=".facebooklikeportlet.AddForm"
+        />
+    <plone:portlet
         name="wcc.facebook.portlet.EcumenicalYouthFacebookPortlet"
         interface=".ecumenicalyouthfacebookportlet.IEcumenicalYouthFacebookPortlet"
         assignment=".ecumenicalyouthfacebookportlet.Assignment"
