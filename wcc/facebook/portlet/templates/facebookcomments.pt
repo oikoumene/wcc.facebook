@@ -1,0 +1,11 @@
+<div class="portlet portletFacebookComments"
+    i18n:domain="wcc.facebook">
+
+<div class="fb-comments" 
+    tal:attributes="data-href context/absolute_url;
+                    data-width view/data/width"
+    data-href="http://example.com/comments" 
+    data-colorscheme="light" 
+    data-numposts="10" data-width="600"></div>
+
+</div>
