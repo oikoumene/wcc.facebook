@@ -51,7 +51,7 @@ class AddForm(base.AddForm):
     def create(self, data):
         return Assignment(**data)
 
-class EditForm(z3cformhelper.EditForm):
+class EditForm(base.EditForm):
     form_fields = form.Fields(IFacebookComments)
     label = _(u"Edit Facebook Comments")
     description = _(u"")
