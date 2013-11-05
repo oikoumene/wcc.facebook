@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<portlets>
+
+    <!-- -*- extra stuff goes here -*- -->
+ <portlet 
+   addview="wcc.facebook.portlet.WccFacebookPortlet"
+   title="WccFacebookPortlet"
+   description=""/>
+ <portlet 
+   addview="wcc.facebook.portlet.FacebookComments"
+   title="Facebook Comments"
+   description=""/>
+ <portlet 
+   addview="wcc.facebook.portlet.FacebookLikePortlet"
+   title="Facebook Like Portlet"
+   description=""/>
+
+ <portlet 
+   addview="wcc.facebook.portlet.EcumenicalYouthFacebookPortlet"
+   title="Ecumenical Youth Facebook Portlet"
+   description=""/>
+
+</portlets>
