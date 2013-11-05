@@ -1,0 +1,13 @@
+<div class="portlet portletWccFacebookPortlet"
+    i18n:domain="wcc.facebook">
+
+    <div class="fb-like-box"
+        data-href="https://www.facebook.com/183344618377998" 
+        tal:attributes="data-width view/data/width" data-width="600" 
+        data-show-faces="false" 
+        data-stream="true" 
+        data-show-border="false" 
+        data-header="false">
+    </div>
+
+</div>

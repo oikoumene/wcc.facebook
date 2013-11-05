@@ -3,6 +3,10 @@
 
     <!-- -*- extra stuff goes here -*- -->
  <portlet 
+   addview="wcc.facebook.portlet.WccFacebookPortlet"
+   title="WccFacebookPortlet"
+   description=""/>
+ <portlet 
    addview="wcc.facebook.portlet.FacebookComments"
    title="Facebook Comments"
    description=""/>
